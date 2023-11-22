@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 480px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background: url(./img\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-1{
+    border-radius: 5px;
+    width: 770px;
+    margin-left: 500px;
+    margin-top: -404px;
+    background: url(./img\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.table{
+    position: relative;
+    height: 230px;
+    width: 400px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 60px;
+    backdrop-filter: blur(15px);
+}
+th,td{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+} 
+.input{
+    font-size: 17px;
+    border: none;
+    outline: none;
+    width: 310px;
+    color: white;
+    background-color: transparent;
+}
+.js{
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+input:focus {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.female{
+    margin-left: 100px;
+}
+.male{
+    margin-left: 10px;
+}
+.option{
+    color: black;
+}
+.todo{
+    background-color: gray;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 0;
+    width: 100%;
+
+}
+.move{
+   border-radius: 5px;
+}
+.name{
+width: 150px;
+font-size: 21px;
+border-radius: 5px;
+padding-top: 3px;
+padding-bottom: 3px;
+font-weight: bold;
+border: 1px solid black;
+color: yellowgreen;
+cursor: pointer;
+}
+.age{
+width: 50px;
+font-size: 21px;
+border-radius: 5px;
+padding-top: 1px;
+padding-bottom: 1px;
+border: 1px solid black;
+font-weight: bold;
+color: yellowgreen;
+}
+.gender{
+width: 70px;
+font-size: 21px;
+border-radius: 5px;
+padding-top: 1px;
+padding-bottom: 1px;
+border: 1px solid black;
+font-weight: bold;
+color: yellowgreen;
+}
+.course{
+width: 150px;
+font-size: 21px;
+border-radius: 5px;
+padding-top: 1px;
+padding-bottom: 1px;
+border: 1px solid black;
+font-weight: bold;
+color: yellowgreen;
+}
+.email{
+width: 200px;
+font-size: 21px;
+border-radius: 5px;
+padding-top: 1px;
+padding-bottom: 1px;
+border: 1px solid black;
+font-weight: bold;
+color: yellowgreen;
+}
+.del{
+    width: 100px;
+    font-size: 21px;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid black;
+    font-weight: bold;
+    color: yellowgreen;
+}
+.change{
+    font-size: 17px;
+    width: 300px;
+    height: 21px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+.space{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin: 20px;
+}
+.btn {
+    width: 130px;
+    font-weight: 500;
+	color: #1D1E22;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 10px 15px;
+	background-color: #66BFBF;
+	transition: all 0.5s;
+	transform: translate(0);
+	overflow: hidden;
+	border-radius: 30px;
+    margin-left: 339px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-family: century gothic;
+}
+
+.btn::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50px;
+	z-index: -1;
+	background: linear-gradient(90deg, #FDC830, #F37335);
+	transform: scaleX(0);
+	transform-origin: 100% 0%;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	color: white;
+}
+
+.btn:hover::before {
+	transform: scaleY(1.1);
+}
+
+.delete {
+    width: 100px;
+    font-weight: 500;
+	color: #1D1E22;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 5px 10px;
+	background-color: #66BFBF;
+	transition: all 0.5s;
+	transform: translate(0);
+	overflow: hidden;
+    border: none;
+	border-radius: 30px;
+    cursor: pointer;
+    font-family: century gothic;
+}
+
+.delete::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50px;
+	z-index: -1;
+	background: linear-gradient(90deg, #FDC830, #F37335);
+	transform: scaleX(0);
+	transform-origin: 100% 0%;
+	transition: 0.5s;
+}
+
+.delete:hover {
+	color: white;
+}
+
+.delete:hover::before {
+	transform: scaleY(1.1);
+}
